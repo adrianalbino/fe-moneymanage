@@ -1,0 +1,91 @@
+.main {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  height: 100vh;
+  background-image: url("../css/mm-bg.png");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  justify-content: center;
+  width: 200px;
+  padding-top: 10%;
+  padding-left: 24%;
+  display: flex;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+  flex: auto;
+}
+.img {
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+
+.label {
+  color: #fff;
+  font-size: 2.3em;
+  justify-content: center;
+  display: flex;
+  margin: 45px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+.inp {
+  width: 85%;
+  height: 25px;
+  background: #e0dede;
+  justify-content: center;
+  display: flex;
+  margin: 28px auto;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.btn {
+  width: 60%;
+  height: 50px;
+  margin: 10px auto;
+  justify-content: center;
+  display: block;
+  color: #fff;
+  background: #323232;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 20px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  transition: 0.2s ease-in;
+  cursor: pointer;
+}
+
+.reg {
+  font-size: 15px;
+  position: relative;
+
+  left: 28%;
+}
+
+.login {
+  width: 400px;
+  background: #065ED4;
+  border-radius: 10%;
+  padding-bottom: 40px;
+  box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.2);
+}
+.login label {
+  color: black;
+}

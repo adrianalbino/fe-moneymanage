@@ -1,0 +1,56 @@
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #065ed4;
+  height: 100px;
+  text-align: center;
+  z-index: 9999;
+}
+
+.footerProtected {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #065ed4;
+  height: 100px;
+  text-align: center;
+  z-index: 9999;
+}
+
+.footerp1 {
+  float: left;
+  margin-left: 30px;
+  margin-top: 32px;
+  font-family: sans-serif;
+}
+
+.fb {
+  width: 60px;
+  float: 60px;
+  float: right;
+  margin: 20px;
+  padding: 20px;
+}
+
+.insta {
+  width: 60px;
+  height: 60px;
+  float: right;
+  margin: 20px;
+  padding: 20px;
+}
+
+.twit {
+  width: 60px;
+  height: 60px;
+  float: right;
+  margin: 20px;
+  padding: 20px;
+}
+
+.icon{
+  size: 'lg';
+  color: #231F20;
+}
